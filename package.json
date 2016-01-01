@@ -1,0 +1,28 @@
+{
+  "name": "node-vkapi",
+  "version": "3.0.7",
+  "description": "Node.js SDK for Vkontakte API (vk.com)",
+  "main": "./src/vkapi.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "vk",
+    "vk.com",
+    "vkontakte",
+    "vk-api",
+    "api"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "fetch-cookie": "^0.7.0",
+    "form-data": "^2.3.1",
+    "node-fetch": "^1.7.3"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
